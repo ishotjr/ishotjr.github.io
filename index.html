@@ -1,15 +1,25 @@
 ---
 layout: page
-title: "Home"
+title: "Welcome"
 date:   2015-06-12 11:56:42
 # categories: 
 ---
 
-                        <ul>
-                          {% for post in site.posts %}
-                            <li>
-                              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                              {% comment %} {{ post.excerpt }} {% endcomment %}
-                            </li>
-                          {% endfor %}
-                        </ul>
+            {% capture index_include %}{% include index.md %}{% endcapture %}
+            {{ index_include | markdownify }}
+
+            <hr>
+
+            {% for post in site.posts limit:5 %}
+
+            <p class="small pull-right">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+              {% comment %} NO NEED FOR <p> WRAPPER {% endcomment %}
+              {{ post.excerpt }}
+
+
+            <hr>
+
+            {% endfor %}

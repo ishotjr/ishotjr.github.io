@@ -2,11 +2,31 @@
 # Site settings
 title: ishotjr.github.io
 # email: your-email@domain.com
-description: #TODO >
+description: > 
+  Example description...
+  TODO: replace with actual
 baseurl: ""		# no trailing slash
 url: "http://ishotjr.github.io"	# no trailing slash
-twitter_username: IShJR
-github_username:  ishotjr
+excerpt_separator: <!--more—->
+
+about: > 
+  Example about...
+  TODO: replace with actual
+footer: > 
+  Example footer...
+  TODO: replace with actual
+twitter_username:    IShJR
+github_username:     ishotjr
+#facebook_username:   TODO
+#linkedin_username:   TODO
+#google_username:     TODO
+youtube_username:    ishotjrdotcom
+instagram_username:  ishjr
+reddit_username:     ishjr
+tumblr_username:     ishotjr
+lastfm_username:  	 ishotjrdotcom
+soundcloud_username: ishjr
+miiverse_username:   ishotjr
 
 # Build settings
 markdown: kramdown
