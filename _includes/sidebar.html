@@ -5,88 +5,82 @@
           </div>
 
           <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Elsewhere</h3>
-            </div>
             <div class="panel-body">
-              <ol class="list-unstyled">
 
-                {% if site.github_username %}
+              {% if site.github_username %}
 
-                <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+              <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-lg fa-fw fa-github"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.twitter_username %}
+              {% if site.twitter_username %}
 
-                <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+              <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-lg fa-fw fa-twitter"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.facebook_username %}
+              {% if site.facebook_username %}
 
-                <li><a href="https://www.facebook.com/{{ site.facebook_username }}">Facebook</a></li>
+              <a href="https://www.facebook.com/{{ site.facebook_username }}"><i class="fa fa-lg fa-fw fa-facebook"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.linkedin_username %}
+              {% if site.linkedin_username %}
 
-                <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></li>
+              <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-lg fa-fw fa-linkedin"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.google_username %}
+              {% if site.google_username %}
 
-                <li><a href="https://plus.google.com/+{{ site.google_username }}/">Google+</a></li>
+              <a href="https://plus.google.com/+{{ site.google_username }}/"><i class="fa fa-lg fa-fw fa-google-plus"></i>+</a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.youtube_username %}
+              {% if site.youtube_username %}
 
-                <li><a href="https://www.youtube.com/user/{{ site.youtube_username }}">YouTube</a></li>
+              <a href="https://www.youtube.com/user/{{ site.youtube_username }}"><i class="fa fa-lg fa-fw fa-youtube"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.instagram_username %}
+              {% if site.instagram_username %}
 
-                <li><a href="https://instagram.com/{{ site.instagram_username }}">Instagram</a></li>
+              <a href="https://instagram.com/{{ site.instagram_username }}"><i class="fa fa-lg fa-fw fa-instagram"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.reddit_username %}
+              {% if site.reddit_username %}
 
-                <li><a href="http://www.reddit.com/user/{{ site.reddit_username }}">Reddit</a></li>
+              <a href="http://www.reddit.com/user/{{ site.reddit_username }}"><i class="fa fa-lg fa-fw fa-reddit"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.tumblr_username %}
+              {% if site.tumblr_username %}
 
-                <li><a href="https://www.tumblr.com/blog/{{ site.tumblr_username }}">Tumblr</a></li>
+              <a href="https://www.tumblr.com/blog/{{ site.tumblr_username }}"><i class="fa fa-lg fa-fw fa-tumblr"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.lastfm_username %}
+              {% if site.lastfm_username %}
 
-                <li><a href="http://www.last.fm/user/{{ site.lastfm_username }}">Last.fm</a></li>
+              <a href="http://www.last.fm/user/{{ site.lastfm_username }}"><i class="fa fa-lg fa-fw fa-lastfm"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.soundcloud_username %}
+              {% if site.soundcloud_username %}
 
-                <li><a href="https://soundcloud.com/{{ site.soundcloud_username }}">SoundCloud</a></li>
+              <a href="https://soundcloud.com/{{ site.soundcloud_username }}"><i class="fa fa-lg fa-fw fa-soundcloud"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-                {% if site.miiverse_username %}
+              {% if site.miiverse_username %}
 
-                <li><a href="https://miiverse.nintendo.net/users/{{ site.miiverse_username }}">Miiverse</a></li>
+              <a href="https://miiverse.nintendo.net/users/{{ site.miiverse_username }}"><i class="fa fa-fw fa-lg fa-gamepad"></i></a>
 
-                {% endif %}
+              {% endif %}
 
-              </ol>
             </div>
           </div>
-
 
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -101,7 +95,7 @@
               {% endfor %}
               </ol>
 
-              <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+              <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-lg fa-rss-square"></i> RSS</a></p>
 
             </div>
           </div>
