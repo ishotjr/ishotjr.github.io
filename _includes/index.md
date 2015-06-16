@@ -4,7 +4,7 @@ This site is intended as a guided tour of some of my projects/GitHub repos, whil
 
 ### [pw-dos](https://github.com/ishotjr/pw-dos)
 
-pw-dos is a silly [Pebble](https://getpebble.com/) watchface that I created as an exercise around with the premise of brushing up on the [3.0 SDK](http://developer.getpebble.com/sdk/); somehow it accidentally gained over 1,000 users in the few months since it reared its preposterous head, so development has continued by popular demand, and has already spawned several variants!
+pw-dos is a silly [Pebble](https://getpebble.com/) watchface that I created as an exercise with the premise of brushing up on the [3.0 SDK](http://developer.getpebble.com/sdk/); somehow it accidentally gained over 1,000 users in the few months since it reared its preposterous head, so development has continued by popular demand, and has already spawned several variants!
 
 ### [flipflop](https://github.com/FlipFlopHome/flipflop)
 
