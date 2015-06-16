@@ -3,18 +3,17 @@
 title: ishotjr.github.io
 # email: your-email@domain.com
 description: > 
-  Example description...
-  TODO: replace with actual
+  A guided tour of some of @ishotjr's projects/GitHub repos
 baseurl: ""		# no trailing slash
 url: "http://ishotjr.github.io"	# no trailing slash
 excerpt_separator: <!--more—->
 
 about: > 
-  Example about...
-  TODO: replace with actual
+  This site is focused on my <a href="https://github.com/ishotjr?tab=activity">GitHub activity</a>.  
+  For other topics, visit <a href="http://ishotjr.com/">ishotjr.com</a>, or find me elsewhere online at the links below.
+  <img class="emoji" title=":bowtie:" alt=":bowtie:" src="https://assets.github.com/images/icons/emoji/bowtie.png" height="20" width="20" align="absmiddle">
 footer: > 
-  Example footer...
-  TODO: replace with actual
+  © 2015 Ish Ot Jr. 
 twitter_username:    IShJR
 github_username:     ishotjr
 #facebook_username:   TODO
