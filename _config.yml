@@ -6,7 +6,7 @@ description: >
   A guided tour of some of @ishotjr's projects/GitHub repos
 baseurl: ""		# no trailing slash
 url: "http://ishotjr.github.io"	# no trailing slash
-excerpt_separator: <!--more—->
+excerpt_separator: <!--more-->
 
 about: > 
   This site is focused on my <a href="https://github.com/ishotjr?tab=activity">GitHub activity</a>.  
